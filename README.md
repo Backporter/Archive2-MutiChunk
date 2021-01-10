@@ -24,11 +24,22 @@ expected look:
 
 **Usage:**
 ---------------------------------------------------------------------
+Firstly; you need to determan what the lowest resolution you want the last mip to be, in most cases i'd recomend 512/1024
+(each mip is half of the main, so 4096 /2 : 2048 || 2048 /2 : 1024 || 1024 /2 : 512), once you decide what you want it to be, create a text document and input the size save it. it should look somthing like this:
+
+![screenshot](size.png)
+
+if none is given, the app will default to 512;
+
 create a folder called "data", put textures(both DDS and GNF) and run Archive2.exe, either do it via CMD or double click it and let it do its magic, if should output a file called "output.ba2" if none is given, renambe it to <espname - Textures.ba2>, and now you have a PS4 GNMF BA2
 
 **Valid Arguments**:
 
-Archive2.exe "output ba2 name"
+"output ba2 name" && "-nc" && "-nst" && "-h" && "--help"
+
+"-nc" enables no compression mode
+
+"-nst" enables No String Table mode
 
 **Credits:**
 ---------------------------------------------------------------------
