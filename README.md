@@ -24,13 +24,11 @@ expected look:
 
 **Usage:**
 ---------------------------------------------------------------------
-create a folder called "data", put textures and run Archive2.exe, either do it via CMD or double click it and let it do its magic, if should output a file called "output.ba2" if none is given, renambe it to <espname - Textures.ba2>, and now you have a PS4 GNMF BA2
+create a folder called "data", put textures(both DDS and GNF) and run Archive2.exe, either do it via CMD or double click it and let it do its magic, if should output a file called "output.ba2" if none is given, renambe it to <espname - Textures.ba2>, and now you have a PS4 GNMF BA2
 
 **Valid Arguments**:
 
 Archive2.exe "output ba2 name"
-
-Archive2.exe
 
 **Credits:**
 ---------------------------------------------------------------------
@@ -40,6 +38,4 @@ Archive2.exe
 
 **Notes:**
 ---------------------------------------------------------------------
-* Make sure the dds are converted to GNF, this tool will not detect the texture format and it assume its already GNF
-
-* This Repo has been re-created as the old one contained senstive infomation, old one was created Nov 2020
+* This tool will require both GNF and DDS, and each need to be named based off what they are.
