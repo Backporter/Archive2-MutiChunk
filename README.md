@@ -25,7 +25,7 @@ expected look:
 **Usage:**
 ---------------------------------------------------------------------
 Firstly; you need to determan what the lowest resolution you want the last mip to be, in most cases i'd recomend 512/1024
-(each mip is half of the main, so 4096 /2 : 2048 || 2048 /2 : 1024 || 1024 /2 : 512), once you decide what you want it to be, create a text document and input the size save it. it should look somthing like this:
+(each mip is half of the main, so 4096 /2 : 2048 || 2048 /2 : 1024 || 1024 /2 : 512), once you decide what you want it to be, create a text document with the name "chunkminsize.txt" and input the size save it. it should look somthing like this:
 
 ![screenshot](size.png)
 
