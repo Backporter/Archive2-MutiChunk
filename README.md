@@ -1,5 +1,5 @@
-# Archive2
-Archive2, supports creating GNMF BA2's,
+# Archive2-MutiChunk
+Archive2-MutiChunk, supports creating Muti-Chunk GNMF BA2's,
 
 **Requirements:**
 ---------------------------------------------------------------------
