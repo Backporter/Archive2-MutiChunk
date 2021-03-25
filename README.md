@@ -50,3 +50,6 @@ create a folder called "data", put textures(both DDS and GNF) and run Archive2.e
 **Notes:**
 ---------------------------------------------------------------------
 * This tool will require both GNF and DDS, and each need to be named based off what they are.
+
+# Info
+Why is it important to have mipmapping you may ask, please refer to [This](https://en.wikipedia.org/wiki/Mipmap) for info on why mip-mapping is important, the main benefit is better performance, in this case, with the weak performance on the PS4 this will help a lot.
